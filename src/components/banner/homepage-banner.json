@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_banner_homepage_banners",
+  "info": {
+    "displayName": "Homepage Banner"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "CTA": {
+      "displayName": "CTA",
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.cta"
+    }
+  }
+}

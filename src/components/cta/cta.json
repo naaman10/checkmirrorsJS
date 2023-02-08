@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_cta_ctas",
+  "info": {
+    "displayName": "CTA"
+  },
+  "options": {},
+  "attributes": {
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaType": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "ctaSize": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "standard",
+        "large"
+      ]
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}
